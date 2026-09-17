@@ -1,0 +1,15 @@
+{
+  "name": "seif-elbakry-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seif ElBakry consultancy website and local content editor",
+  "scripts": {
+    "test": "node tests/admin-editor.spec.cjs",
+    "format": "prettier --write index.html assets/scripts/*.js assets/styles/*.css tests/*.cjs README.md package.json",
+    "format:check": "prettier --check index.html assets/scripts/*.js assets/styles/*.css tests/*.cjs README.md package.json"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "prettier": "^3.9.8"
+  }
+}
